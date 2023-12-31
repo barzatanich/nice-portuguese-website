@@ -1,11 +1,307 @@
-<!Doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nice Portuguese App</title>
   </head>
   <body>
-    <h1>hello world</h1>
+    <header class="header">
+      <nav class="nav">
+        <button id="nav-button" type="button" class="nav__button">
+          <img
+            src="images/nav-button.svg"
+            alt="Navigation expanding and closing button for Mobile"
+          />
+        </button>
+        <div>
+          <a href="/index.html"
+            ><img src="images/logo.svg" alt="Site Logo"
+          /></a>
+        </div>
+        <div class="nav__menu">
+          <ul id="nav-menu" class="menu__items">
+            <li class="menu__item">
+              <a
+              class="menu__link"
+              href="#cards">o que fazemos</a>
+            </li>
+            <li class="menu__item">
+              <a
+              class="menu__link"
+              href="#hashtag">como te ajudamoss</a>
+            </li>
+            <li class="menu__item">
+              <a
+              class="menu__link"
+              href="#contact">fale conosco</a>
+            </li>
+          </ul>
+          <ul class="menu__icons">
+            <li>
+              <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/nav-instagram.svg" alt="Instagram Icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/nav-facebook.svg" alt="Facebook Icon" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="content-wrapper">
+        <section class="header__content">
+          <div class="content__background"></div>
+          <div class="left-section">
+            <h1 class="header__title">Um slogan chamativo aqui.</h1>
+            <h4 class="header__text">
+              Um texto sobre o seu produto ou serviço. Explique
+              <span> porque ele é valioso</span> e direcione o usuário ao
+              próximo objetivo.
+            </h4>
+            <button type="button" class="header__button1">Eu quero!</button>
+            <button type="button" class="header__button2">Conhecer mais</button>
+          </div>
+          <div class="image-wrapper">
+            <img
+              class="header__image"
+              src="images/header-image.png"
+              alt="Person carrying a round shape"
+            />
+            <div class="img__gradient1"></div>
+            <div class="img__gradient2"></div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section1">
+        <div id="cards"></div>
+        <h3 class="section1__title section__title">
+          Um subtítulo para quem rolou até aqui!
+        </h3>
+        <p class="section1__text">
+          Aproveite esta seção para destacar os benefícios do seu produto ou
+          serviço. <br />Palavras-chave ajudam no SEO.
+        </p>
+        <div class="section1__cards">
+          <div class="section1__card">
+            <div class="card__image-container">
+              <img
+                class="card__image"
+                src="images/card1-img.png"
+                alt="arrow hitting target"
+              />
+            </div>
+            <h5 class="card__title">Rápido</h5>
+            <p class="card__text">
+              Aproveite esta seção para destacar os benefícios do seu produto ou
+              serviço.
+            </p>
+            <a class="card__icon" href="#"
+              ><img src="images/card-icon.png" alt="plus icon"
+            /></a>
+          </div>
+          <div class="section1__card">
+            <div class="card__image-container">
+              <img
+                class="card__image"
+                src="images/card2-img.png"
+                alt="arrow hitting target"
+              />
+            </div>
+            <h5 class="card__title">Do seu jeito</h5>
+            <p class="card__text">
+              Aproveite esta seção para destacar os benefícios do seu produto ou
+              serviço.
+            </p>
+            <a class="card__icon" href="#"
+              ><img src="images/card-icon.png" alt="plus icon"
+            /></a>
+          </div>
+          <div class="section1__card">
+            <div class="card__image-container">
+              <img
+                class="card__image"
+                src="images/card3-img.png"
+                alt="arrow hitting target"
+              />
+            </div>
+            <h5 class="card__title">Como você queria</h5>
+            <p class="card__text">
+              Aproveite esta seção para destacar os benefícios do seu produto ou
+              serviço.
+            </p>
+            <a class="card__icon" href="#"
+              ><img src="images/card-icon.png" alt="plus icon"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section class="section2" id="hashtag">
+        <div class="section2__content">
+          <p class="section2__text1">#contecomagente</p>
+          <h3 class="section2__title">Simples, rápido e do seu jeito.</h3>
+          <p class="section2__text2">
+            Mostre os valores da sua marca e como ela pode fazer parte da vida
+            do usuário que está lendo. Gerar identificação é a chave para<span>
+              conquistar seu cliente.</span
+            >
+          </p>
+          <button type="button" class="header__button1">Eu quero!</button>
+        </div>
+        <div class="wrap-the-wrapper">
+          <div class="section2__gradient1"></div>
+          <div class="section2__gradient2"></div>
+          <div class="section2__image-wrapper">
+            <img
+              class="section2__image"
+              src="images/section2__img.png"
+              alt="Person speaking on the phone"
+            />
+            <img
+              class="section2__image-tablet"
+              src="images/section2__img-tablet.png"
+              alt="Person speaking on the phone"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section3" id="contact">
+        <img
+          class="section3__chat-icon"
+          src="images/section3-chat-icon.png"
+          alt="Chat icon"
+        />
+        <h3 class="section__title">Ainda tem dúvidas? <br />Fale conosco!</h3>
+        <div class="section3__container">
+          <div class="section3__left">
+            <p class="section3__text">
+              Ofereça um meio de comunicação direto.<br />Pode ser um
+              <a
+                href="mailto:contato@email.com.br"
+                class="section3__span1"
+              >
+                contato@email.com.br
+              </a>
+              <br/>
+              <br/>
+              Ou crie um formulário ao lado que entrem em contato
+              <span class="section3__span2">o mais rápido possível!</span>
+            </p>
+            <div class="whatsapp__wrapper">
+              <img
+                src="images/Section3__whatsapp-icon.png"
+                alt="Whatsapp icon"
+              />
+              <a href="https://wa.me/387123123123" target="_blank" class="whatsapp__text">Hey! Estamos no whatsapp!</a>
+            </div>
+          </div>
+          <form class="section3__form" action="#">
+            <label class="section3__label">
+              Name
+              <input
+                class="section3__input"
+                type="text"
+                name="name"
+                required
+                placeholder="Name Sobrename"
+              />
+            </label>
+            <label class="section3__label">
+              Email
+              <input
+                class="section3__input"
+                type="email"
+                name="email"
+                required
+                placeholder="nome@email.com.br"
+              />
+            </label>
+            <label class="section3__label">
+              Telefone
+              <input
+                class="section3__input"
+                type="tel"
+                name="tel"
+                placeholder="21 9988-7766"
+              />
+            </label>
+            <button type="submit" class="header__button1">Enviar!</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="footer-nav">
+        <a class="footer-logo__nav" href="/index.html"
+          ><img src="images/footer-logo.svg" alt="Site Logo"
+        />
+        </a>
+        <div class="footer-nav__menu">
+            <ul class="footer-menu__items">
+              <li>
+                <a
+                class="footer-menu__link"
+                href="#cards">o que fazemos</a>
+              </li>
+              <li>
+                <a
+                class="footer-menu__link"
+                href="#hashtag">como te ajudamoss</a>
+              </li>
+              <li>
+                <a
+                class="footer-menu__link"
+                href="#contact">fale conosco</a>
+              </li>
+            </ul>
+            <ul class="footer-menu__icons">
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img src="images/footer-instagram.svg" alt="Instagram Icon" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="images/footer-facebook.svg" alt="Facebook Icon" />
+                </a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+          <form class="footer__form" action="#">
+            <label
+              class="footer__subs-label"
+              for="email"
+            >
+              Receba as novidades do nice
+            </label>
+            <div class="footer__input-wrapper">
+              <input
+                class="footer__subs-input"
+                type="email"
+                name="subsemail"
+                id="email"
+                required
+                placeholder="nome@email.com"
+              >
+              <button class="footer__button" type="submit">Inscrever</button>
+            </div>
+          </form>
+          <div class="footer__line"></div>
+          <p class="footer__copy-rights">Nice template by @lopesluiza<br class="linebreak"> on Figma - 2021</p>
+    </footer>
+    <script src="main.js"></script>
   </body>
 </html>

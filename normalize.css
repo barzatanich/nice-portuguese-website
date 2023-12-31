@@ -1,4 +1,13 @@
 /* CSS RESET RULES */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 div,
@@ -104,8 +113,14 @@ section {
   display: block;
 }
 
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
 body {
-  line-height: 1;
+  line-height: normal;
 }
 
 ol,
