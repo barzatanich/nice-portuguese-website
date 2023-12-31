@@ -478,6 +478,7 @@ body {
 }
 
 .section3__input {
+  font-family: inherit;
   display: block;
   border-radius: 8px;
   border: 1px solid var(--light-frame);
@@ -485,6 +486,11 @@ body {
   height: 40px;
   width: 100%;
   padding-left: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--black);
 }
 
 .section3__input::placeholder {
@@ -571,12 +577,19 @@ body {
 
 .footer__subs-input {
   display: block;
+  font-family: inherit;
   height: 44px;
   border-radius: 6px 0 0 6px;
   border: 1px solid var(--white);
   padding-left: 14px;
   width: 100%;
   background-color: transparent;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--white);
+  outline: none;
 }
 
 .footer__subs-input::placeholder {
@@ -794,7 +807,7 @@ body {
 }
 
 .footer-logo__nav {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .footer-nav__menu {
