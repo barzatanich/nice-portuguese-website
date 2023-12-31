@@ -759,7 +759,7 @@ body {
     position: absolute;
     inset: 16% 30% 30%;
     background: linear-gradient(180deg, rgba(24 75 255 / 0%) 0%, #174aff 100%);
-    filter: blur(6vw);
+    filter: blur(8vw);
     z-index: -1;
   }
 
@@ -768,7 +768,7 @@ body {
     inset: 46% 40% 20% 36%;
     border-radius: 50%;
     background: linear-gradient(180deg, rgba(0 194 255 / 0%) 0%, #ff29c3 100%);
-    filter: blur(6vw);
+    filter: blur(8vw);
     z-index: -2;
   }
 
